@@ -1,11 +1,6 @@
-import logging
 import os
 import pathlib
 import shutil
-logging.basicConfig(filename='event.log',
-                    format='',
-                    level=logging.DEBUG)
-log = logging.getLogger()  # root
 
 
 def main():
